@@ -1,0 +1,59 @@
+@charset "utf-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,button,span{
+	margin:0;
+	padding:0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 16px;
+	font-weight: normal;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+b,strong{
+	font-weight: normal;
+}
+em,i{
+	font-style: normal;
+}
+img{
+	border: none;
+	display: block;
+}
+input{
+	outline: none;
+	border: 0px;
+}
+button{
+	border: 0px;
+}
+.clear_fix:after{
+	content: ".";
+	clear:both;
+	display: block;
+	height:0;
+	overflow:hidden;
+	visibility: hidden;
+}
+.clear_fix{
+	zoom:1;
+}
+/* 公共样式 */
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.clear_margin{
+    margin: 0!important;
+}
+.clear_border{
+    border: 0!important;
+}
+.clear_bg{
+    background:none!important;
+}
