@@ -1,0 +1,175 @@
+@charset "utf-8";
+a{
+    color: #666;
+    text-decoration: none;
+}
+a:hover{
+    color: #E4393C !important;
+}
+body{
+    font-size: 12px;
+    color: #666;
+}
+.logo-wrap,.container-wrap,.links-wrap{
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.header-box{
+    height: 110px;
+    background: url(../images/headbg.jpg) repeat-x left bottom;;
+}
+.logo{
+    width: 160px;
+    height: 50px;
+    float: left;
+    margin-top: 24px;
+    background: url(../images/reg.png) no-repeat;
+}
+.logo_tit{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    font-size: 24px;
+    color: #333;
+    margin-top: 34px;
+}
+.logo_number{
+    font-size: 16px;
+    float: right;
+    margin-top: 55px;
+    color: #999;
+}
+.logo_number a{
+    color: #e22;
+}
+/* logo 结束 */
+
+/* container 开始 */
+.container-wrap{
+    margin-bottom: 35px;
+}
+.container_nav{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #d5d5d5;
+    font-size: 0;
+}
+.nav_txt{
+    color: #e71304;
+    border-bottom: 1px solid #e71304;
+    font-size: 18px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.reg_form{
+    margin-top: 45px;
+}
+.reg_form .form_item{
+    margin-top: 20px;
+    text-align: center;
+}
+.form_item .label{
+    line-height: 45px;
+    font-size: 12px;
+    text-align: center;
+}
+#usernameID,#phoneID,#imageCode,#passwordA,#passwordB{
+    width: 350px;
+    border: 1px solid #ddd;
+    height: 35px;
+    text-indent: 12px;
+    margin-left: 10px;
+}
+.form_item #imageCode{
+    width: 190px;
+}
+.form_item .image_code_box{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    height: 45px;
+}
+.form_group_message{
+    display: none;
+    color: red;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.form_group_succeed{
+    display: inline;
+    position: absolute; 
+    color: green;
+    line-height: 35px;
+    margin-top: 5px;
+}
+.form_group_error{
+    display: inline-block;
+    position: absolute; 
+    line-height: 35px;
+    margin-top: 5px;
+}
+.image_code .label{
+    position: relative;
+}
+.form_group_right{
+    position:absolute;
+    top: -14px;
+    right: -44%;
+}
+#phoneID,#passwordA,#passwordB{
+    margin-left: 8px;
+}
+
+
+
+.reg_btn{
+    display: inline-block;
+    width: 350px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #e2231a;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+.form_item  #protocol{
+   position: absolute;
+   top: 2px;
+   left: 40%;
+}
+.agree div{
+    position: relative;
+}
+.agree a{
+    color: #32a1e8;
+}
+
+
+/* container 结束 */
+
+/* links部分 */
+.links-wrap{
+    font-size: 12px;
+    text-align: center;
+    border-top: solid 1px #e6e6e6;
+    color: #999;
+    padding-bottom: 30px;
+}
+.links-box{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.links-box a{
+    color: #999;
+    margin: 0 10px;
+}
+
